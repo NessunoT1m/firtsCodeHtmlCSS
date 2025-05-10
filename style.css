@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D5E1EF;
+     /* ВАЖНО! Центрирует по вертикали */
+  }
+  
+
+.container{
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.card{
+    background-color: #fff;
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.block1{
+    height: 300px;
+    background-color: #2C7DFA;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.block2 h1{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #1F314F;
+}
+
+.block2 p{
+    padding: 10px;
+    text-align: center;
+    color: #8D97AA;
+}
