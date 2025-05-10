@@ -25,7 +25,12 @@ body{
     width: 300px;
     border-radius: 15px;
     padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
 
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
 }
 
 .block1{
@@ -54,4 +59,12 @@ body{
     padding: 10px;
     text-align: center;
     color: #8D97AA;
+}
+
+.dark{
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+.dark:hover{
+    cursor: pointer;
 }
